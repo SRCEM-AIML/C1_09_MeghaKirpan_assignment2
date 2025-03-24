@@ -10,18 +10,18 @@ This project demonstrates the containerization of a multi-app Django web applica
 ### 🔧 How It Works<br>
 📄 Dockerfile: Sets up a lightweight Python environment, installs dependencies, and copies the Django project files into the container.
 
-🤖 Jenkinsfile (CI/CD Pipeline): Automates the process by:<br>
-*Pulling the latest code from the GitHub repository.<br>
-*Building the Docker image.<br>
-*Pushing the built image to Docker Hub.<br>
+### 🤖 Jenkinsfile (CI/CD Pipeline): Automates the process by:<br>
+- Pulling the latest code from the GitHub repository.<br>
+- Building the Docker image.<br>
+- Pushing the built image to Docker Hub.<br>
 
 Running the Application: Once the Docker image is built and pushed, the Django app can be run as a container, accessible via the configured port.
 
 ### Technologies Used<br>
-Python 3<br>
-Django<br>
-Docker<br>
-Jenkins (for CI/CD pipeline)<br>
+- Python 3<br>
+- Django<br>
+- Docker<br>
+- Jenkins (for CI/CD pipeline)<br>
 
 ### Contact for Support<br>
 Name: Megha Kirpan<br>
